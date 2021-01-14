@@ -31,7 +31,26 @@ switch(user){
 };
 
 //for loop
-
-for(i = 1 ; i <= 10 ; i++){
-    if(i % 2 !== 0) console.log(i)
+for(j = 0 ; j <= 10 ; j++){
+    if(j % 2 !== 0) console.log(j)
 }
+
+//While loop
+
+let i = 10;
+while(i <= 20){
+    if(i % 2 !== 0) console.log(i)
+    i++
+}
+
+//Do while loop
+
+let k = 20;
+do{
+    if(k % 2 !== 0) console.log(k)
+    k++
+}while(k <= 30)
+
+//Infinite loop
+
+//This is created in another file
